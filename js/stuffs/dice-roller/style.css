@@ -1,0 +1,64 @@
+h1{
+    color: rgb(81, 81, 201);
+}
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+input{
+    font-size: 20px;
+    color: rgb(1, 1, 1);
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-color: rgb(134, 138, 176);
+    margin: 20px;
+}
+
+#rollButton{
+    font-size: 1.2rm;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    background-color: rgb(130, 130, 230);
+    margin: auto;
+    cursor: pointer;
+    border-color: rgb(134, 138, 176);
+}
+
+#rollButton:hover{
+    transition: 10ms;
+    background-color:  rgb(130, 130, 250);
+}
+
+#rollButton:active{
+    background-color:  rgb(66, 66, 225);;
+}
+
+#diceNumber{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#diceImage {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    min-height: 60px;
+}
+
+#diceImage img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
